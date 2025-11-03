@@ -6,7 +6,6 @@
         <title>SITE WEB</title>
         <link rel="stylesheet" href="">
     </head>
-
     <body>
         <main>
         <img src="IMG FOND">
@@ -19,7 +18,6 @@
         <h1>Studio Dior & OC</h1>
         <h2>Deux regards, une même passion</h2>
         <p>À travers leurs objectifs, Nice devient muse : chaque rue, chaque lumière, chaque instant se transforme en émotion. Une invitation à redécouvrir la ville autrement, entre esthétisme, sensibilité et inspiration.</p>
-
         <h3>GALERIE</h3>
         <img src="GALERIE 1">
         <p>Les hauteurs du silence</p>
@@ -37,7 +35,6 @@
         <p>Ascension silencieuse</p>
         <img src="GALERIE 8">
         <p>L'oeil du port</p>
-
         <h3>ARTISTES</h3>
         <img src=" ARTISTE 1">
         <p>“Je travaille avec simplicité et précision. Mon regard se concentre sur les formes, les lignes et les instants du quotidien, sans chercher à provoquer des émotions particulières. J’aime créer des images claires et épurées qui racontent l’essentiel avec honnêteté. Mon approche directe apporte équilibre et lisibilité aux projets auxquels je participe, complétant harmonieusement le travail collectif.“
@@ -47,7 +44,6 @@
             visuelle et émotionnelle.“ 
             OC</p>   
         <img src="AGENDA COUVERTURE">  
-
         <h3>AGENDA</h3>
         <img src="AGENDA 1">  
         <p>Noir & Blanc 
@@ -58,7 +54,6 @@
             <img src="AGENDA 3">  
             <p>Visages d’âme
                24/06/2026 à Nice</p>
-
         <h3>PERSONA</h3>
         <p>“Je suis venue à Nice à la recherche d’inspiration pour ma prochaine exposition, et le travail de Dior & OC a été une révélation. Leur sens de la composition et leur façon de capter la lumière méditerranéenne m’ont donné de nouvelles idées et une énergie créative incroyable. C’est rare de trouver des photographes capables de rendre une ville si vivante et poétique à la fois.”
             — Louise Karlsson</p>
