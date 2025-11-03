@@ -1,1 +1,91 @@
-# Projet-site
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>SITE WEB</title>
+        <link rel="stylesheet" href="">
+    </head>
+
+    <body>
+        <main>
+        <img src="IMG FOND">
+        <img src="IMG LOGO">
+    <fieldset>
+                <input type="submit" name="accueil" id="accueil" value="Accueil">
+                <input type="submit" name="agenda" id="agenda" value="Agenda">
+                <input type="submit" name="contact" id="contact" value="Contact">
+    </fieldset>
+        <h1>Studio Dior & OC</h1>
+        <h2>Deux regards, une même passion</h2>
+        <p>À travers leurs objectifs, Nice devient muse : chaque rue, chaque lumière, chaque instant se transforme en émotion. Une invitation à redécouvrir la ville autrement, entre esthétisme, sensibilité et inspiration.</p>
+
+        <h3>GALERIE</h3>
+        <img src="GALERIE 1">
+        <p>Les hauteurs du silence</p>
+        <img src="GALERIE 2">
+        <p>Les eaux suspendues</p>
+        <img src="GALERIE 3">
+        <p>Entre deux rives</p>
+        <img src="GALERIE 4">
+        <p>La respiration de la mer</p>
+        <img src="GALERIE 5">
+        <p>L'écho des places</p>
+        <img src="GALERIE 6">
+        <p>Silhouette d'azur</p>
+        <img src="GALERIE 7">
+        <p>Ascension silencieuse</p>
+        <img src="GALERIE 8">
+        <p>L'oeil du port</p>
+
+        <h3>ARTISTES</h3>
+        <img src=" ARTISTE 1">
+        <p>“Je travaille avec simplicité et précision. Mon regard se concentre sur les formes, les lignes et les instants du quotidien, sans chercher à provoquer des émotions particulières. J’aime créer des images claires et épurées qui racontent l’essentiel avec honnêteté. Mon approche directe apporte équilibre et lisibilité aux projets auxquels je participe, complétant harmonieusement le travail collectif.“
+            DIOR</p>
+         <img src=" ARTISTE 2">
+        <p>“Je crée des images qui racontent des histoires et captent les émotions du quotidien. Mon travail explore l’humain, les micro-moments et les détails qui échappent souvent au regard. Chaque photo est une invitation à ressentir, à réfléchir et à se connecter, où l’esthétique sert le sens et le récit. Je cherche à faire dialoguer le spectateur avec l’image, transformant l’instantané en expérience 
+            visuelle et émotionnelle.“ 
+            OC</p>   
+        <img src="AGENDA COUVERTURE">  
+
+        <h3>AGENDA</h3>
+        <img src="AGENDA 1">  
+        <p>Noir & Blanc 
+            15/11/2025 à Nice</p>
+            <img src="AGENDA 2">  
+            <p>Au clair de Lune 
+                05/02/2026 à Nice</p>
+            <img src="AGENDA 3">  
+            <p>Visages d’âme
+               24/06/2026 à Nice</p>
+
+        <h3>PERSONA</h3>
+        <p>“Je suis venue à Nice à la recherche d’inspiration pour ma prochaine exposition, et le travail de Dior & OC a été une révélation. Leur sens de la composition et leur façon de capter la lumière méditerranéenne m’ont donné de nouvelles idées et une énergie créative incroyable. C’est rare de trouver des photographes capables de rendre une ville si vivante et poétique à la fois.”
+            — Louise Karlsson</p>
+        <p>« En tant qu’étudiant en photographie ici à Nice, je trouve beaucoup d’inspiration dans le travail de Dior & Océane. Leur façon de saisir la lumière et les détails de la ville me motive à progresser et à chercher mon propre style. Elles prouvent qu’avec de la passion, on peut transformer le quotidien en quelque chose de beau et de marquant. »
+            — Léo Simon</p>
+        <p>« Le travail de Dior & Océane m’a profondément touché. Leur regard singulier sur Nice révèle une élégance rare, loin des clichés habituels. Elles subliment la ville avec une sensibilité qui force l’admiration. Leur art m’inspire à redécouvrir Nice à travers leurs images : une véritable leçon de raffinement et de poésie visuelle. »
+            — Éden Valcours</p>
+        </main>
+        <form>
+            <fieldset>
+                <legend>NEWSLETTER</legend>
+                <p>Adresse mail :<br>
+                    <input type="text" name="mail" id="mail" required>
+            </fieldset>
+            <fieldset>
+            <legend>Nous Contacter</legend>  
+            <img src="LOGO MAIL">
+            <p>studiodior&oc@gmail.com</p>
+            <img src="LOGO TEL">
+            <p>06.45.67.89.23</p>
+            <img src="LOGO LIEU">
+            <p>Nice</p>
+            <img src="LOGO INSTA"> 
+            <img src="LOGO TIKTOK"> 
+            <img src="LOGO FB">  
+            <img src="LOGO LINKEDIN">        
+            </fieldset>
+        </form>
+    </body>
+</html>
