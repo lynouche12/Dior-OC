@@ -320,7 +320,7 @@ body {
 .agenda-header {
     position: relative;
     height: 250px;
-    background-image: url('agenda-background.jpg');
+    background-image: url('https://raw.github.com/lynouche12/Dior-OC/main/avion%20ciel.JPG');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -543,4 +543,5 @@ body {
         font-size: 13px;
     }
 }
+
 
