@@ -54,7 +54,7 @@ body {
     position: relative;
     height: 100vh;
     min-height: 600px;
-    background-image: url('images/Capture\ d\'écran\ 2025-12-02\ 094812.png');
+    background-image: url('https://raw.github.com/lynouche12/Dior-OC/main/accueil.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -543,3 +543,4 @@ body {
         font-size: 13px;
     }
 }
+
