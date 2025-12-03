@@ -190,7 +190,11 @@ body {
     font-family: 'Georgia', serif;
     background-color: #f5f1ed;
 }
-
+@media (max-width: 1200px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 /* Section Artistes */
 .artistes-section {
     padding: 80px 50px;
@@ -535,6 +539,7 @@ body {
         font-size: 13px;
     }
 }
+
 
 
 
