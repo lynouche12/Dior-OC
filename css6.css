@@ -186,6 +186,10 @@ body {
     color: #1a3a52;
     text-align: left;
 }
+.separator{
+    border-top: 1px solid #bfa08e;
+    margin: 20px 0;
+}
 body {
     font-family: 'Georgia', serif;
     background-color: #f5f1ed;
@@ -442,7 +446,10 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-
+.separator{
+    border-top: 1px solid #bfa08e;
+    margin: 20px 0;
+}
 body {
     font-family: 'Georgia', serif;
     background-color: #f5f1ed;
@@ -539,6 +546,7 @@ body {
         font-size: 13px;
     }
 }
+
 
 
 
