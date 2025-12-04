@@ -559,7 +559,9 @@ body {
     }
 .header-tag 
 { 
+    display: inline-block;
 }
+
 
 
 
