@@ -619,6 +619,12 @@ body {
     color: #5d5c61; 
     text-decoration: none;
 } 
+.social-icons
+{ 
+    display: flex;
+    flex-direction: column; 
+    gap: 8px; 
+}
 
 
 
