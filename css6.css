@@ -553,7 +553,10 @@ body {
        border-radius: 5px;
     font-family: Arial, sans-serif;
     } 
-
+.newsletter-section {
+    text-align: center;
+    margin-bottom: 30px;
+    }
 
 
 
