@@ -626,6 +626,12 @@ body {
     gap: 8px; 
 }
 .social-icons img
+ {
+     width: 24px; 
+     /* Taille des icônes */
+     height: 24px; 
+ }
+
 
 
 
