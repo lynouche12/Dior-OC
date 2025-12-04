@@ -610,6 +610,15 @@ body {
     margin-right: 10px;
     font-size: 18px; 
 }
+.location-icon
+{ 
+    margin-left: 20px; 
+} 
+.contact-link 
+{ 
+    color: #5d5c61; 
+    text-decoration: none;
+} 
 
 
 
