@@ -574,6 +574,14 @@ body {
     font-size: 14px; 
     color: #5d5c61; 
 }
+.email-input 
+{ 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px; width: 80%;
+    max-width: 300px; 
+    box-sizing: border-box; 
+} 
 
 
 
