@@ -546,8 +546,13 @@ body {
         font-size: 13px;
     }
 }
-
-
+#contact-info
+{
+       background-color: #fcf8f3;
+       padding: 20px;
+       border-radius: 5px;
+    font-family: Arial, sans-serif;
+    } 
 
 
 
