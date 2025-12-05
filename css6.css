@@ -553,120 +553,6 @@ body {
 /* -------------------------------------- */
 /* Section Contact (Newsletter & Infos) */
 /* -------------------------------------- */
- .header {
-            text-align: left;
-            padding: 40px 20px;
-            margin: 0px 0px;
-            margin-left: 770px;
-            max-width: 900px;
-        }
-
-        .header-box {
-            display: inline-block;
-            border: 2px solid #d4b896;
-            border-right: none;
-            border-radius: 80px 0 0 80px;
-            padding: 30px 120px 30px 80px;
-            background-color:#f5ebe0;
-        }
-         .separator{
-            border-top: 1px solid #bfa08e;
-            margin: 20px 0;
-        }
-        h1 {
-            font-size: 3em;
-            letter-spacing: 0.1em;
-            font-weight: normal;
-        }
-#contact-info
-{
-       background-color: #fcf8f3;
-       padding: 20px;
-       border-radius: 5px;
-    font-family: Arial, sans-serif;
-    } 
-.newsletter-section {
-    text-align: center;
-    margin-bottom: 30px;
-    }
-.header-tag 
-{ 
-    display: inline-block;
-    padding: 8px 25px;
-    border: 1px solid #c7b39a;
-    border-radius: 20px; 
-    font-size: 16px; 
-    color: #5d5c61; 
-    text-transform: uppercase; 
-    letter-spacing: 1px;
-}
-.email-label 
-{ 
-    margin-top: 20px;
-    font-size: 14px; 
-    color: #5d5c61; 
-}
-.email-input 
-{ 
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px; width: 80%;
-    max-width: 300px; 
-    box-sizing: border-box; 
-} 
-.separator 
-{ 
-    border: none;
-    border-top: 1px solid #e0e0e0;
-    margin: 30px 0;
-} 
-.contact-section
-{ 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: flex-start;
-}
-.contact-info 
-{ 
-    flex-grow: 1;
-} 
-.contact-item 
-{ 
-    display: flex; 
-    align-items: center;
-    margin-bottom: 10px;
-    color: #5d5c61;
-}
-.icon 
-{ 
-    margin-right: 10px;
-    font-size: 18px; 
-}
-.location-icon
-{ 
-    margin-left: 20px; 
-} 
-.contact-link 
-{ 
-    color: #5d5c61; 
-    text-decoration: none;
-} 
-.social-icons
-{ 
-    display: flex;
-    flex-direction: column; 
-    gap: 8px; 
-}
-.social-icons img
- {
-     width: 24px; 
-     /* Taille des icônes */
-     height: 24px; 
- }
-
-
-
-
        .header {
             text-align: left;
             padding: 40px 20px;
@@ -901,6 +787,7 @@ body {
                 font-size: 1.1em;
             }
         }
+
 
 
 
