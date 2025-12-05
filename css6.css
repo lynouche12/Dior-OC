@@ -64,7 +64,7 @@ body {
 .hero-content {
     position: relative;
     z-index: 10;
-    max-width: 700px;
+    max-width: 900px;
 }
 .hero h1 {
     font-size: 72px;
@@ -653,6 +653,7 @@ body {
                 font-size: 1.1em;
             }
         }
+
 
 
 
