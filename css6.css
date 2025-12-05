@@ -141,6 +141,9 @@ body {
         font-size: 15px;
     }
 }
+html {
+  scroll-behavior: smooth;
+}
 /* Galerie Section */
 .galerie-section {
     background-color: #f5ebe0;
@@ -632,6 +635,7 @@ body {
      /* Taille des icônes */
      height: 24px; 
  }
+
 
 
 
