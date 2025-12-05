@@ -633,37 +633,167 @@ body {
             background: #0077b5;
             color: white;
         }
+ /* RESPONSIVE - Mobile First */
         @media (max-width: 768px) {
-            h1 {
-                font-size: 2em;
+            body {
+                background-color: #f5ebe0;
             }
+
+            .header {
+                margin-left: 0;
+                text-align: left;
+                padding: 30px 20px 0 20px;
+                max-width: 100%;
+            }
+
             .header-box {
-                padding: 20px 60px 15px;
+                border: 2px solid #1a3a52;
+                border-radius: 80px;
+                padding: 25px 50px;
+                background-color: #f5ebe0;
+                display: inline-block;
             }
+
+            h1 {
+                font-size: 2.2em;
+                color: #1a3a52;
+            }
+
+            /* Ligne de séparation après NEWSLETTER */
+            .header::after {
+                content: '';
+                display: block;
+                height: 1px;
+                background-color: #d4b896;
+                margin-top: 30px;
+            }
+
             .content {
                 padding: 40px 20px;
+                background-color: #f5ebe0;
             }
-            .contact-title {
-                font-size: 1.8em;
-                padding: 12px 35px;
+
+            .email-label {
+                font-size: 1.4em;
+                color: #000;
             }
+
+            .email-input {
+                max-width: 100%;
+                padding: 12px 15px;
+                font-size: 0.9em;
+                border: 2px solid #000;
+            }
+
+            .email-section {
+                margin-bottom: 50px;
+            }
+
             .contact-section {
+                padding-top: 20px;
+            }
+
+            .contact-title {
+                font-size: 1.6em;
+                padding: 12px 35px;
+                border: 2px solid #000;
+                background-color: #fff;
+                font-weight: normal;
+            }
+
+            .contact-info-wrapper {
+                background-color: white;
+                padding: 30px 20px;
+                margin-top: -60px;
+                padding-top: 50px;
                 flex-direction: column;
+                gap: 25px;
+                position: relative;
             }
-            .social-media {
-                flex-direction: row;
-                justify-content: center;
+
+            .contact-info {
+                gap: 20px;
+                width: 100%;
             }
+
             .contact-item {
-                font-size: 1.1em;
+                font-size: 1em;
+                gap: 12px;
+            }
+
+            .at-icon,
+            .phone-icon,
+            .location-icon {
+                width: 45px;
+                height: 45px;
+                border: 2px solid #000;
+            }
+
+            .at-icon::before {
+                font-size: 1.5em;
+            }
+
+            .phone-icon {
+                font-size: 1.2em;
+            }
+
+            /* Réseaux sociaux - Position fixe à droite */
+            .social-media {
+                position: fixed;
+                right: 20px;
+                top: 50%;
+                transform: translateY(-50%);
+                flex-direction: column;
+                gap: 15px;
+                z-index: 1000;
+            }
+
+            .social-icon {
+                width: 45px;
+                height: 45px;
+                border-radius: 8px;
             }
         }
 
+        @media (max-width: 480px) {
+            .header {
+                padding: 20px 15px 0 15px;
+            }
 
+            .header-box {
+                padding: 20px 40px;
+            }
 
+            h1 {
+                font-size: 1.8em;
+            }
 
+            .email-label {
+                font-size: 1.2em;
+            }
 
+            .contact-title {
+                font-size: 1.3em;
+                padding: 10px 25px;
+            }
 
+            .contact-item {
+                font-size: 0.9em;
+            }
+
+            .social-media {
+                right: 15px;
+                gap: 12px;
+            }
+
+            .social-icon {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
 
 
 
