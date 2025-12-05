@@ -3,13 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Georgia', serif;
     background-color: #f5f1ed;
 }
-
-/* Navigation */
 .navbar {
     position: absolute;
     top: 0;
@@ -22,7 +19,6 @@ body {
     z-index: 100;
     height: 60px;
 }
-
 .logo-img {
     height: 170px;
     width: 170px;
@@ -30,13 +26,11 @@ body {
     max-width: 100%;
     height: auto;
 }
-
 .nav-links {
     display: flex;
     gap: 50px;
     list-style: none;
 }
-
 .nav-links a {
     color: #000;
     text-decoration: none;
@@ -44,12 +38,9 @@ body {
     font-weight: 500;
     transition: opacity 0.3s;
 }
-
 .nav-links a:hover {
     opacity: 0.6;
 }
-
-/* Hero Section */
 .hero {
     position: relative;
     height: 100vh;
@@ -61,7 +52,6 @@ body {
     align-items: center;
     padding-left: 80px;
 }
-
 .hero::before {
     content: '';
     position: absolute;
@@ -71,14 +61,11 @@ body {
     bottom: 0;
     background: rgba(255, 255, 255, 0.05);
 }
-
 .hero-content {
     position: relative;
     z-index: 10;
     max-width: 700px;
-    
 }
-
 .hero h1 {
     font-size: 72px;
     font-weight: 600;
@@ -86,7 +73,6 @@ body {
     color: #000;
     line-height: 1.1;
 }
-
 .hero-subtitle {
     font-size: 20px;
     font-style: italic;
@@ -94,7 +80,6 @@ body {
     color: #000;
     font-weight: 400;
 }
-
 .hero-description {
     font-size: 18px;
     line-height: 1.8;
@@ -103,40 +88,31 @@ body {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     max-width: 600px;
 }
-
-/* Responsive */
 @media (max-width: 768px) {
     .navbar {
         padding: 15px 25px;
     }
-
     .logo-img {
         height: 140px;
         width: 100px;
     }
-
     .nav-links {
         gap: 25px;
     }
-
     .nav-links a {
         font-size: 16px;
     }
-
     .hero {
         padding-left: 25px;
         padding-right: 25px;
     }
-
     .hero h1 {
         font-size: 42px;
     }
-
     .hero-subtitle {
         font-size: 16px;
         margin-bottom: 30px;
     }
-
     .hero-description {
         font-size: 15px;
     }
@@ -144,12 +120,10 @@ body {
 html {
   scroll-behavior: smooth;
 }
-/* Galerie Section */
 .galerie-section {
     background-color: #f5ebe0;
     padding: 80px 40px;
 }
-
 .galerie-section h2 {
     font-size: 3rem;
     color: #1a3a52;
@@ -157,25 +131,21 @@ html {
     font-weight: 400;
     letter-spacing: 2px;
 }
-
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     max-width: 1400px;
 }
-
 .gallery-item {
     display: flex;
     flex-direction: column;
     cursor: pointer;
     transition: transform 0.3s;
 }
-
 .gallery-item:hover {
     transform: translateY(-5px);
 }
-
 .gallery-item img {
     width: 100%;
     height: 250px;
@@ -183,7 +153,6 @@ html {
     border-radius: 4px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
-
 .gallery-caption {
     margin-top: 12px;
     font-size: 0.95rem;
@@ -203,13 +172,11 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-/* Section Artistes */
 .artistes-section {
     padding: 80px 50px;
     max-width: 1400px;
     margin: 0 auto;
 }
-
 .artistes-title {
     font-size: 48px;
     color: #1a3a52;
@@ -217,15 +184,12 @@ body {
     font-weight: 600;
     letter-spacing: 2px;
 }
-
-/* Carte Artiste */
 .artiste-card {
     display: flex;
     gap: 50px;
     align-items: flex-start;
     margin-bottom: 80px;
 }
-
 .artiste-photo {
     width: 280px;
     height: 280px;
@@ -233,14 +197,12 @@ body {
     border-radius: 0;
     flex-shrink: 0;
 }
-
 .artiste-content {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
 .artiste-quote {
     font-size: 16px;
     line-height: 1.8;
@@ -248,7 +210,6 @@ body {
     font-style: italic;
     text-align: justify;
 }
-
 .artiste-name {
     font-size: 20px;
     font-weight: 600;
@@ -257,7 +218,6 @@ body {
     margin-top: 10px;
     letter-spacing: 1px;
 }
-
 .artiste-name-left {
     font-size: 20px;
     font-weight: 600;
@@ -266,69 +226,54 @@ body {
     margin-top: 10px;
     letter-spacing: 1px;
 }
-
-/* Responsive */
 @media (max-width: 900px) {
     .artistes-section {
         padding: 60px 30px;
     }
-
     .artistes-title {
         font-size: 36px;
         margin-bottom: 40px;
     }
-
     .artiste-card {
         flex-direction: column;
         align-items: center;
         gap: 30px;
         margin-bottom: 60px;
     }
-
     .artiste-card.reverse {
         flex-direction: column;
     }
-
     .artiste-photo {
         width: 100%;
         max-width: 320px;
         height: 320px;
     }
-
     .artiste-quote {
         font-size: 15px;
     }
-
     .artiste-name {
         text-align: center !important;
         font-size: 18px;
     }
 }
-
 @media (max-width: 600px) {
     .artistes-section {
         padding: 40px 20px;
     }
-
     .artistes-title {
         font-size: 28px;
     }
-
     .artiste-photo {
         height: 280px;
     }
-
     .artiste-quote {
         font-size: 14px;
     }
-
 }
-
 body {
     font-family: 'Georgia', serif;
     background-color: #f5f1ed;
 }
-/* Header Agenda avec image de fond */
 .agenda-header {
     position: relative;
     height: 250px;
@@ -339,7 +284,6 @@ body {
     align-items: center;
     padding-left: 80px;
 }
-
 .agenda-title {
     font-size: 64px;
     color: #1a3a52;
@@ -348,13 +292,10 @@ body {
     position: relative;
     z-index: 10;
 }
-
-/* Section Événements */
 .evenements-section {
     padding: 60px 50px 100px;
     background-color: #f5ebe0;
 }
-
 .evenements-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -362,85 +303,67 @@ body {
     max-width: 1400px;
     margin: 0 auto;
 }
-
-/* Carte Événement */
-
 .evenement-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
-
 .evenement-photo {
     width: 100%;
     height: 320px;
     object-fit: cover;
     display: block;
 }
-
 .evenement-info {
     padding: 20px;
     background-color: #f5ebe0;
 }
-
 .evenement-titre {
     font-size: 18px;
     font-weight: 600;
     color: #1a3a52;
     margin-bottom: 8px;
 }
-
 .evenement-date {
     font-size: 14px;
     color: #1a3a52;
     font-style: italic;
 }
-
-/* Responsive */
 @media (max-width: 1100px) {
     .evenements-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
 }
-
 @media (max-width: 768px) {
     .agenda-header {
         height: 180px;
         padding-left: 30px;
     }
-
     .agenda-title {
         font-size: 42px;
     }
-
     .evenements-section {
         padding: 40px 25px;
     }
-
     .evenements-grid {
         grid-template-columns: 1fr;
         gap: 25px;
     }
-
     .evenement-photo {
         height: 280px;
     }
 }
-
 @media (max-width: 480px) {
     .agenda-header {
         height: 150px;
         padding-left: 20px;
     }
-
     .agenda-title {
         font-size: 32px;
     }
-
     .evenement-titre {
         font-size: 16px;
     }
-
     .evenement-date {
         font-size: 13px;
     }
@@ -458,14 +381,11 @@ body {
     font-family: 'Georgia', serif;
     background-color: #f5f1ed;
 }
-
-/* Section Persona */
 .persona-section {
     padding: 80px 50px 100px;
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .persona-title {
     font-size: 48px;
     color: #1a3a52;
@@ -473,20 +393,15 @@ body {
     font-weight: 600;
     letter-spacing: 2px;
 }
-
-/* Container des témoignages */
 .testimonials {
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
-
-/* Carte de témoignage */
 .testimonial {
     background-color: transparent;
     padding: 0;
 }
-
 .testimonial-text {
     font-size: 16px;
     line-height: 1.8;
@@ -494,7 +409,6 @@ body {
     margin-bottom: 15px;
     text-align: justify;
 }
-
 .testimonial-author {
     font-size: 15px;
     color: #2d5a7b;
@@ -502,57 +416,43 @@ body {
     text-align: left;
     font-style: normal;
 }
-
-/* Responsive */
 @media (max-width: 768px) {
     .persona-section {
         padding: 60px 30px 80px;
     }
-
     .persona-title {
         font-size: 36px;
         margin-bottom: 40px;
     }
-
     .testimonials {
         gap: 40px;
     }
-
     .testimonial-text {
         font-size: 15px;
         line-height: 1.7;
     }
-
     .testimonial-author {
         font-size: 14px;
     }
 }
-
 @media (max-width: 480px) {
     .persona-section {
         padding: 40px 20px 60px;
     }
-
     .persona-title {
         font-size: 28px;
         margin-bottom: 30px;
     }
-
     .testimonials {
         gap: 35px;
     }
-
     .testimonial-text {
         font-size: 14px;
     }
-
     .testimonial-author {
         font-size: 13px;
     }
 }
-/* -------------------------------------- */
-/* Section Contact (Newsletter & Infos) */
-/* -------------------------------------- */
        .header {
             text-align: left;
             padding: 40px 20px;
@@ -560,7 +460,6 @@ body {
             margin-left: 770px;
             max-width: 900px;
         }
-
         .header-box {
             display: inline-block;
             border: 2px solid #d4b896;
@@ -569,32 +468,26 @@ body {
             padding: 30px 120px 30px 80px;
             background-color:#f5ebe0;
         }
-
         h1 {
             font-size: 3em;
             letter-spacing: 0.1em;
             font-weight: normal;
         }
-
         .content {
             max-width: 900px;
             margin: 0 auto;
             padding: 60px 40px;
-            border: 2px solid #d4b896;
             border-radius: 0 0 40px 40px;
             background-color:#f5ebe0;
         }
-
         .email-section {
             margin-bottom: 60px;
         }
-
         .email-label {
             font-size: 2em;
             margin-bottom: 20px;
             font-weight: normal;
         }
-
         .email-input {
             width: 100%;
             max-width: 500px;
@@ -604,16 +497,13 @@ body {
             background-color: white;
             font-family: inherit;
         }
-
         .contact-section {
             padding-top: 40px;
         }
-
         .contact-left {
             flex: 1;
             min-width: 300px;
         }
-
         .contact-info-wrapper {
             background-color: white;
             padding: 30px;
@@ -623,7 +513,6 @@ body {
             gap: 40px;
             align-items: flex-start;
         }
-
         .contact-title {
             display: inline-block;
             font-size: 2.5em;
@@ -636,21 +525,18 @@ body {
             position: relative;
             z-index: 1;
         }
-
         .contact-info {
             display: flex;
             flex-direction: column;
             gap: 30px;
             flex: 1;
         }
-
         .contact-item {
             display: flex;
             align-items: center;
             gap: 15px;
             font-size: 1.3em;
         }
-
         .icon {
             width: 40px;
             height: 40px;
@@ -658,18 +544,15 @@ body {
             align-items: center;
             justify-content: center;
         }
-
         .icon::before {
             content: '';
             font-size: 1.5em;
         }
-
         .at-icon::before {
             content: '@';
             font-weight: bold;
             font-size: 2em;
         }
-
         .phone-icon {
             width: 40px;
             height: 40px;
@@ -680,7 +563,6 @@ body {
             justify-content: center;
             font-size: 1.2em;
         }
-
         .location-icon {
             width: 30px;
             height: 35px;
@@ -689,7 +571,6 @@ body {
             align-items: center;
             justify-content: center;
         }
-
         .location-icon::before {
             content: '';
             width: 24px;
@@ -700,7 +581,6 @@ body {
             transform: rotate(-45deg);
             position: absolute;
         }
-
         .location-icon::after {
             content: '';
             width: 10px;
@@ -710,7 +590,6 @@ body {
             position: absolute;
             z-index: 1;
         }
-
         .social-media {
             display: flex;
             flex-direction: column;
@@ -719,7 +598,6 @@ body {
             justify-content: flex-start;
             padding-top: 0;
         }
-
         .social-icon {
             width: 50px;
             height: 50px;
@@ -731,62 +609,51 @@ body {
             text-decoration: none;
             transition: transform 0.3s;
         }
-
         .social-icon:hover {
             transform: scale(1.1);
         }
-
         .instagram {
             background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
             color: white;
         }
-
         .tiktok {
             background: #000;
             color: white;
         }
-
         .facebook {
             background: #1877f2;
             color: white;
         }
-
         .linkedin {
             background: #0077b5;
             color: white;
         }
-
         @media (max-width: 768px) {
             h1 {
                 font-size: 2em;
             }
-
             .header-box {
                 padding: 20px 60px 15px;
             }
-
             .content {
                 padding: 40px 20px;
             }
-
             .contact-title {
                 font-size: 1.8em;
                 padding: 12px 35px;
             }
-
             .contact-section {
                 flex-direction: column;
             }
-
             .social-media {
                 flex-direction: row;
                 justify-content: center;
             }
-
             .contact-item {
                 font-size: 1.1em;
             }
         }
+
 
 
 
