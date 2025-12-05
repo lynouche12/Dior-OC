@@ -474,6 +474,10 @@ body {
             font-weight: normal;
             color: #1a3a52;
         }
+.separator{
+    border-top: 1px solid #bfa08e;
+    margin: 20px 0;
+}
         .content {
             max-width: 900px;
             margin: 0 auto;
@@ -654,6 +658,7 @@ body {
                 font-size: 1.1em;
             }
         }
+
 
 
 
